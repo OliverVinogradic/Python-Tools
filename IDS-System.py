@@ -45,6 +45,8 @@ def analyse_logs(data_dictonary):
             intruder_ip = data.get("IP_Adress")
             date = data.get("Date & Time")
             print(f"[!]{intruder_ip} logged in {date} at {status_code}")
+        else:
+            print("[+] No errors !")
 
         
     
